@@ -1,0 +1,21 @@
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1240px;
+}
+
+img {
+  margin: 5px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
