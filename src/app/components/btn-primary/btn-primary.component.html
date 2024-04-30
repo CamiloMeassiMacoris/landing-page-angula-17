@@ -1,0 +1,10 @@
+<button (click)="submit()" [class]="'btn ' + variant" [disabled]="disabled">
+  <!-- nova sinxtaxe angular 17 -->
+  <!-- @if(!loading){
+        {{btnText}}
+    }@else {
+        carregando...
+    } -->
+  <span *ngIf="!loading"> {{ btnText }} </span>
+  <span *ngIf="loading"> carregando... </span>
+</button>
